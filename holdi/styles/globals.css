@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat/Montserrat-Light.ttf");
+}
+
+body {
+  font-family: sans-serif;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+ body::-webkit-scrollbar {
+  display: none;
+}
+
+#top {
+  background-image: url(../images/main.jpg);
+}
+
+#activity {
+  background-image: url(../images/activity.jpg);
+}
+
+#contact {
+  background-image: url(../images/contact.jpg);
+}

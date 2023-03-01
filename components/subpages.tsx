@@ -15,7 +15,7 @@ export default function Subpages({
 
   return (
     <div data-testid="subpages">
-      <div className="curtain bg-no-repea h-screen w-full bg-cover bg-fixed bg-center text-center">
+      <div className="curtain h-screen w-full text-center">
         <div className="flex h-full w-full items-center justify-center duration-500 md:mr-20 md:justify-end md:pr-20">
           <Link href={`${link}`} className="cursor-default" onClick={curtain}>
             <h1 className="relative cursor-pointer text-3xl font-semibold text-white duration-300 hover:text-yellow-400 md:my-8 md:text-5xl">

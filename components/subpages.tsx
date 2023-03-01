@@ -11,7 +11,7 @@ export default function Subpages({
 }: any) {
   const contentArray = content
     .split("/")
-    .map((item: string) => <li>{item}</li>);
+    .map((item: string) => <li key={item}>{item}</li>);
 
   return (
     <div data-testid="subpages">
